@@ -1,0 +1,31 @@
+{
+  "name": "GraphQL-server-for-Recipe-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gowthamaraj/GraphQL-server-for-Recipe-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gowthamaraj/GraphQL-server-for-Recipe-app/issues"
+  },
+  "homepage": "https://github.com/gowthamaraj/GraphQL-server-for-Recipe-app#readme",
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.3.0",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
